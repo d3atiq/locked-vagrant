@@ -1,0 +1,7 @@
+---
+# tasks file for locked-vagrant
+
+- name: Lock vagrant user
+  become: true
+  shell: passwd -l vagrant
+
